@@ -1,6 +1,6 @@
 # LoginPage 🔐
 
-Pagina de Logins usando Angular 17, para começar os estudos de Front End.
+Página de Login usando Angular 17, para começar os estudos de Front End.
 
 > "Aprender fazendo". 🧑‍💻
 
@@ -76,9 +76,6 @@ Sempre que você alterar os arquivos em `src/`, a aplicação recarrega automati
 ```bash
 ng test
 ```
-
-Os testes são executados pelo **Karma** e exibem o resultado no navegador padrão.
-
 ---
 
 ## 🏗️ Build para Produção
@@ -86,9 +83,6 @@ Os testes são executados pelo **Karma** e exibem o resultado no navegador padr�
 ```bash
 ng build
 ```
-
-Os artefatos minificados são gerados em `dist/`. Você pode servir essa pasta em qualquer serviço estático (Nginx, Netlify, Vercel, GitHub Pages, etc.).
-
 ---
 
 ## 📁 Estrutura de Pastas (resumida)
@@ -115,4 +109,4 @@ src/
 
 ---
 
-> Feito com ❤ por *\Liryel — bom código e bons estudos! 📚🎉
+> Feito com ❤ por *Liryel* — bom código e bons estudos! 📚🎉
