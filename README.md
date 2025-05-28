@@ -1,27 +1,118 @@
-# LoginPage
+# LoginPage 🔐
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Pagina de Logins usando Angular 17, para começar os estudos de Front End.
 
-## Development server
+> "Aprender fazendo". 🧑‍💻
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Visão Geral
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Interface limpa e minimalista inspirada no design do Figma.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🎨 Design no Figma
 
-## Running unit tests
+Todo o visual foi desenhado no Figma. Você pode conferir aqui:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[🔗 Acessar Figma](https://www.figma.com/design/7T1wkErczpMOBeqtpVjMSb/Login-Page-Design?node-id=6-920&p=f&t=fG0CvaD9M3IjNuxj-0)
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🎥 Vídeo‑aula
 
-## Further help
+Feito com base na video aula:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[▶️ Playlist no YouTube — Angular Login Page](https://www.youtube.com/watch?v=6qbuuPM_de4&list=PLVTj2CclmOofAVheXiFeAnHojXYd1RByl&index=19)
+
+---
+
+## 📦 Tecnologias & Ferramentas
+
+| Ferramenta  | Versão  | Descrição                                    |
+| ----------- | ------- | -------------------------------------------- |
+| Angular CLI | 17.3.17 | Geração de projeto e comandos de build/serve |
+| TypeScript  | 5.x     | Tipagem estática para JavaScript             |
+| RxJS        | 7.x     | Programação reativa                          |
+| Node.js     | ≥ 18    | Runtime JavaScript                           |
+
+*(Sinta‑se livre para adicionar outras libs que você usar, como Angular Material ou TailwindCSS).* 💅
+
+---
+
+## ⚡ Pré‑requisitos
+
+```bash
+# Node.js (recomendado >= 18)
+https://nodejs.org/
+
+# Angular CLI
+npm install -g @angular/cli@17
+```
+
+---
+
+## 🛠️ Como Rodar Localmente
+
+```bash
+# 1. Clone o repositório
+$ git clone https://github.com/<seu-user>/login-page.git
+$ cd login-page
+
+# 2. Instale as dependências
+$ npm install
+
+# 3. Execute o servidor de desenvolvimento
+$ ng serve -o   # abre o navegador em http://localhost:4200/
+```
+
+Sempre que você alterar os arquivos em `src/`, a aplicação recarrega automaticamente. 🔄
+
+---
+
+## 🧪 Testes Unitários
+
+```bash
+ng test
+```
+
+Os testes são executados pelo **Karma** e exibem o resultado no navegador padrão.
+
+---
+
+## 🏗️ Build para Produção
+
+```bash
+ng build
+```
+
+Os artefatos minificados são gerados em `dist/`. Você pode servir essa pasta em qualquer serviço estático (Nginx, Netlify, Vercel, GitHub Pages, etc.).
+
+---
+
+## 📁 Estrutura de Pastas (resumida)
+obs: Projeto ainda em andamento - essa estrutura ainda será montada
+```
+src/
+ ├─ app/
+ │   ├─ core/        # serviços singleton
+ │   ├─ shared/      # componentes reutilizáveis
+ │   └─ auth/        # componentes da página de login
+ ├─ assets/          # imagens, ícones, fontes
+ └─ environments/    # configs dev & prod
+```
+
+---
+
+## 🤝 Contribuição
+
+1. Faça um **fork** do projeto 🍴
+2. Crie uma **branch** (`git checkout -b feature/minha-feature`)
+3. Commit suas alterações (`git commit -m 'feat: Minha feature'`)
+4. Faça **push** para a branch (`git push origin feature/minha-feature`)
+5. Abra um **Pull Request** 🚀
+
+---
+
+> Feito com ❤ por *\Liryel — bom código e bons estudos! 📚🎉
